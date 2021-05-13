@@ -30,6 +30,7 @@ export type TransitionStartEventDetail = {
   from: string;
   to: string;
   isBack: boolean;
+  isSwipeBack: boolean;
 };
 
 interface ViewsScrolls {
